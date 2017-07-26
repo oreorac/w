@@ -1,0 +1,17 @@
+OPTIONS(SKIP=1)
+LOAD DATA 
+INFILE  '/dbfiles/applcsf/cust/bin/xxbooks_schema_75.dat'
+INTO TABLE book_schema_M2_75_temp
+REPLACE
+FIELDS TERMINATED BY X'9'			
+TRAILING NULLCOLS
+(
+	AUTHOR_ID  "TRIM(:AUTHOR_ID)",    		      	
+	BOOK_NAME "TRIM(:BOOK_NAME)",			
+	ISBN_NUMBER "TRIM(:ISBN_NUMBER)", 	 		
+	PAGES "TRIM(:PAGES)",          	 	
+	COST "TRIM(:COST)",				
+	PUBLISHING_DATE	"TO_DATE(:PUBLISHING_DATE,'DD/MM/YYYY')",		
+	BOOK_TYPE "TRIM(:BOOK_TYPE)"
+
+) 
