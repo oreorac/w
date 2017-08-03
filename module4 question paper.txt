@@ -1,0 +1,42 @@
+    
+
+    
+   Q1.SQL-LOADER
+
+	Attached is the position separated file which contains data in the following format
+	
+
+		COLUMN NAME        POSITION
+		
+	    Customer Id             1 to 9
+	    Customer Name           10 to 29
+	    Gender		    30 to 34
+	    Customer Address	    35 to 70
+	    Phone Number 	    70 to 90
+  
+	Using concurrent program (Type:SQL-LOADER) upload the data present in file
+	"customer.dat" to the table "XXCUSTLAB01USERxx" with the following validation.
+
+	1.Make sure that no extra spaces should be present in the column(TRIM the data).
+	2.Gender should have only M and F; reject the data if other characters are there.
+
+
+
+    Q2. Concurrent Program
+	
+	Using concurrent Program (Type:PLSQL Stored Procedure) transfer the data from table
+	"XXCUSTLAB01USERxx" to table "XXCUSTSTGLAB01USERxx" with the following validation
+
+
+	1.Reject the data if the mobile number is greater than 10 digits
+	2.Transfer "M" to "male" and "F" to "female", while inserting the data in another
+
+
+    Q3. Form Personalization:-
+
+	Add the responsibility "Receivable Super Vision Corporation Japan" to your login.
+	Go to the form "Transaction-->Transaction" and perform following changes using 
+	"form personalization"(For your login).
+
+	1.Make "Document Num" field compulsory.
+	2.Disable the button "Distributions".

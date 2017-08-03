@@ -1,0 +1,597 @@
+
+OraApps Mod 1 MTT Set 2
+
+Section:
+1
+2
+3
+Time Left : 59 : 32 List View 
+    Active     Attempted     Not Attempted
+Q1
+
+ 
+Consider the contents of Products.dat file as below:
+
+p101|samsung sII|27000|15
+p102|samsung sIII|39000|7
+p103|samsung note|32000|11
+p104|sony experia|29000|9
+p105|HTC one X|37000|5
+
+Which command is correct way to show the record for product "samsung sII"  wherever it could be in the file?
+Single Choice - Select one correct answer from the options list.
+grep "sII" products.dat
+head -1 products.dat
+grep -w "sII" products.dat
+filter "sII" products.dat
+Q2
+
+ 
+Which command will give execute permission to group owners and remove execute permission from other users?
+Single Choice - Select one correct answer from the options list.
+chmod g+exec, o-exec < filename >
+chmod g+x, o-x < filename >
+chmod g+x < filename >
+chmod o-x < filename >
+Q3
+
+ 
+What will print today's date followed by users who are currently logged in?      
+
+Single Choice - Select one correct answer from the options list.
+date; who
+date: who
+date || who
+date + who
+Q4
+
+ 
+_______ operator is used for append redirection.      
+
+Single Choice - Select one correct answer from the options list.
+>
+<
+> >
+< <
+Q5
+
+ 
+________ part of Unix architecture schedules the task and manages storage.      
+
+Single Choice - Select one correct answer from the options list.
+Tools
+Application
+Shell
+Kernel
+Q6
+
+ 
+How many lines will be retrieved by following command:
+
+head -2 products1.dat   products2.dat
+
+
+
+Single Choice - Select one correct answer from the options list.
+2 lines
+3 lines
+4 lines
+Error
+Q7
+
+ 
+How to check in script whether there are atleast 3 command line arguments provided?      
+
+Single Choice - Select one correct answer from the options list.
+if [ $# -ge 3 ] then #Processing instructions # fi
+if [ $# -gt 3 ] then #Processing instructions # fi
+if [ $@ -ge 3 ] then #Processing instructions # fi
+if [ $? -ge 3 ] then #Processing instructions # fi
+Q8
+
+ 
+Which of the below code is written with respect to good programming practices for calculating 
+gross salary of an employee?                 
+ 
+Single Choice - Select one correct answer from the options list.
+BEGIN
+  DECLARE Id AS INTEGER
+  DECLARE Name AS STRING
+  DECLARE B AS INTEGER  
+  DECLARE G AS DOUBLE 
+  ACCEPT Id,Name,B
+  G = B*0.8 + 1500
+  PRINT Id,Name,B,G 
+END
+BEGIN
+  DECLARE empId AS INTEGER
+  DECLARE empName AS STRING
+  DECLARE basicSalary AS INTEGER  
+  DECLARE grossSalary AS DOUBLE 
+  ACCEPT empId,empName,basicSalary
+  grossSalary = basicSalary*0.8 + 1500
+  PRINT empId,empName,basicSalary,grossSalary 
+END
+BEGIN
+  DECLARE EmpId AS INTEGER
+  DECLARE EmpName AS STRING
+  DECLARE BasicSalary AS INTEGER  
+  DECLARE GrossSalary AS DOUBLE 
+  ACCEPT EmpId,EmpName,BasicSalary
+  GrossSalary = BasicSalary*0.8 + 1500
+  PRINT EmpId,EmpName,BasicSalary,GrossSalary 
+END
+Both A and B
+Both B and C
+Q9
+
+ 
+A good program has:
+Single Choice - Select one correct answer from the options list.
+High Cohesion and Low Coupling
+Low Cohesion and High Coupling
+High Cohesion and High Coupling
+Low Cohesion and Low Coupling
+Q10
+
+ 
+Categorize the following into exception handling scenarios and defensive programming?
+
+1) Validate data at all entry points
+2) Message saying a file opened to be read does not exist
+3) User thinks he has entered the correct password. However, the system says "invalid password"
+4) Define some parts of software for dirty (invalid) data and some to work with clean data.
+
+Single Choice - Select one correct answer from the options list.
+Exception Handling:1,3,4 Defensive Programming:2
+Exception Handling:2,4 Defensive Programming:1,3
+Exception Handling:1,4 Defensive Programming:2,3
+Exception Handling:2,3 Defensive Programming:1,4
+Q11
+
+ 
+The space factor when determining the efficiency of algorithm is measured by which factor???
+Single Choice - Select one correct answer from the options list.
+Counting the maximum memory needed by the algorithm
+Counting the minimum memory needed by the algorithm
+Counting the average memory needed by the algorithm
+Counting the maximum disk space needed by the algorithm
+Q12
+
+ 
+Which of the following is true for testing?
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Test cases should be designed for valid and expected values only.
+In order to perform Black Box Testing on an application, the tester needs to possess knowledge of the internal working of the code.
+White Box Testing is the detailed investigation of internal logic and structure of the code
+The purpose of testing is to find and correct the cause of the error.
+Q13
+
+ 
+Consider following array:
+
+66    44      1    12    15    17     20
+
+After completion of 4 iterations using bubble sort, what will be the array contents?
+
+Single Choice - Select one correct answer from the options list.
+1 12 15 17 44 20 66
+1 12 15 17 66 44 20
+1 17 15 12 20 44 66
+1 12 15 17 44 66 20
+Q14
+
+ 
+ Select * from student join takes using (ID);
+The above query is equivalent to :
+Single Choice - Select one correct answer from the options list.
+Select * from student inner join takes using (ID);
+Select * from student outer join takes using (ID);
+Select * from student left outer join takes using (ID);
+All of the above
+None of the above
+Q15
+
+ 
+__________ is the combination of the "background processes" and "memory structures" in Oracle architecture.
+
+
+Single Choice - Select one correct answer from the options list.
+Oracle database
+Oracle Instance
+Redo Log files
+Server Process
+Q16
+
+ 
+Identify the valid Data Dictionary Views from the given list:      
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+USER_OBJECTS
+USER_INDICES
+USER_FUNTIONS
+USER_CURSORS
+USER_VIEWS
+Q17
+
+ 
+The ________system table shows whether a transaction is alive or backed out.
+Single Choice - Select one correct answer from the options list.
+USER_FLASHBACK_TRANSACTION_STATE
+DBA_FLASHBACK_TRANSACTION_STATE
+USER_FLASHBACK_TRANSACTION_REPORT
+DBA_FLASHBACK_TRANSACTION_REPORT
+Q18
+
+ 
+When a SELECT INTO statement returns more than one row, you get __________ exception.      
+
+Single Choice - Select one correct answer from the options list.
+NO_DATA_FOUND
+SELECT_ROWS
+TOO_MANY_ROWS
+CURSOR_OPEN
+ROWS_INVALID
+Q19
+
+ 
+DECLARE
+   c_id customers.id%type;
+   c_name customers.name%type;
+   c_addr customers.address%type;
+   CURSOR c_customers is
+      SELECT id, name, address FROM customers;
+BEGIN
+   OPEN c_customers;
+   LOOP
+      FETCH c_customers into c_id, c_name, c_addr;
+      EXIT WHEN c_customers%notfound;
+      dbms_output.put_line(c_id || ' ' || c_name || ' ' || c_addr);
+   END LOOP;
+   CLOSE c_customers;
+END;
+/                                                                      Above code is which type of cursor?
+Single Choice - Select one correct answer from the options list.
+Implicit cursor
+Explicit cursor
+REF cursor
+All of the above
+Q20
+
+ 
+Salary of all the employees belonging to department 10 should be increase by 15%. 
+What should be the query?               
+
+Single Choice - Select one correct answer from the options list.
+UPDATE EMP SET sal=sal+(sal*.15) WHERE deptno=10;
+UPDATE EMP SET sal=sal+(sal*.15) from EMP WHERE deptno is 10;
+UPDATE EMP SET sal=sal+(sal*15) WHERE deptno is 10;
+INSERT INTO EMP(sal) VALUES (sal+(sal*15)) WHERE deptno =10;
+Q21
+
+ 
+A package will have which of the following mandatory parts?
+Single Choice - Select one correct answer from the options list.
+Package body
+Package Definition
+Both A and B
+None of the above
+Q22
+
+ 
+Identify the correct statement regarding the below query.
+
+select productname from products where price between 200 and 300
+Single Choice - Select one correct answer from the options list.
+All products whose price is equal to or more than 201 and less than or equal to 300
+All products whose price is equal to or more than 200 and less than or equal to 300
+All products whose price is more than or equal to 200 and less than 300
+All products whose price is 201 or more and less than 299
+Q23
+
+ 
+When a value from the database is assigned to a PLSQL or Host variable using  the RETURNING clause of the INSERT, UPDATE or DELETE statement, then such a variable is called _______ variable
+Single Choice - Select one correct answer from the options list.
+In-Bind
+Out-Bind
+In-Out-Bind
+All of the mentioned
+Q24
+
+ 
+I create and populate my employees table as follows:
+
+CREATE TABLE plch_employees
+(
+   employee_id   INTEGER
+   last_name     VARCHAR2 (100)
+)
+/
+
+BEGIN
+   INSERT INTO plch_employees
+        VALUES (100, ?Picasso?);
+
+   INSERT INTO plch_employees
+        VALUES (200, ?Mondrian?);
+
+   INSERT INTO plch_employees
+        VALUES (300, ?O??Keefe?);
+
+   COMMIT;
+END;
+/
+   Which of these blocks will uppercase the last names of all employees in the table?
+Single Choice - Select one correct answer from the options list.
+DECLARE TYPE ids_t IS TABLE OF plch_employees.employee_id%TYPE; l_ids ids_t := ids_t (100, 200, 300); BEGIN FORALL indx IN 1 .. l_ids.COUNT LOOP UPDATE plch_employees SET last_name = UPPER (last_name) WHERE employee_id = l_ids (indx); END LOOP; END; /
+DECLARE TYPE ids_t IS TABLE OF plch_employees.employee_id%TYPE; l_ids ids_t := ids_t (100, 200, 300); BEGIN FORALL indx IN 1 .. l_ids.COUNT UPDATE plch_employees SET last_name = UPPER (last_name) WHERE employee_id = l_ids (indx); END; /
+BEGIN UPDATE plch_employees SET last_name = UPPER (last_name); END; /
+DECLARE TYPE ids_t IS TABLE OF plch_employees.employee_id%TYPE; l_ids ids_t := ids_t (100, 200, 300); BEGIN FORALL indx IN INDICES OF l_ids UPDATE plch_employees SET last_name = UPPER (last_name) WHERE employee_id = l_ids (indx); END; /
+Q25
+
+ 
+Consider EMP table exists with data and columns in the table are empnoenamesal and deptno. 
+Identify the query that would do the same task as similar to the below mentioned query:
+
+SELECT enamesal FROM emp WHERE sal>ANY(1600,2999);
+Single Choice - Select one correct answer from the options list.
+SELECT ename,sal FROM emp WHERE sal > 1600 OR sal > 2999;
+SELECT ename,sal FROM emp WHERE sal > ALL(1600,2999);
+SELECT ename,sal FROM emp WHERE sal > 1600 AND sal > 2999;
+None of the above
+Q26
+
+ 
+See the below code snippet:
+
+CREATE OR REPLACE TRIGGER emp_probation
+  BEFORE DELETE ON emp
+   FOR EACH ROW
+   BEGIN
+ IF (Sysdate - :old.hiredate) < 30 THEN
+RAISE_APPLICATION_ERROR(20103'Emploee' || :old.ename || 'Probation');
+ END IF;
+END;
+/
+
+Identify the correct exception type that is handled in the code.  
+(Refer to default EMP table structure.)
+Single Choice - Select one correct answer from the options list.
+PRAGMA Exception
+User Defined Exception
+Compile Time Exception
+Predefined Exception
+Q27
+
+ 
+Which type of trigger will work if we want to write a log whenever any employee record(s) is deleted? 
+The log is not for the employee record being deleted but for complete delete operation.      
+
+Single Choice - Select one correct answer from the options list.
+Row Level Trigger
+DML Trigger
+Statement Level Trigger
+Instead Trigger
+Q28
+
+ 
+DECLARE
+TYPE NumList IS TABLE OF NUMBER;
+  num_tab NumList := NumList(1001112300201992091);
+errnum NUMBER;
+BEGIN
+FORALL i IN num_tab.FIRST..num_tab.LAST SAVE EXCEPTIONS
+  DELETE FROM emp WHERE sal>500000/num_tab(i);
+exception
+when others then
+   errnum :=SQL%BULK_EXCEPTIONS.COUNT;
+dbms_output.put_line('Number of errors is ' || errnum);
+FOR i IN 1..errnum LOOP
+dbms_output.put_line('Error ' || i || ' occurred during '|| 'execution ' ||  SQL%BULK_EXCEPTIONS(i).ERROR_INDEX);
+dbms_output.put_line('Oracle error code is ' || SQL%BULK_EXCEPTIONS(i).ERROR_CODE);
+dbms_output.put_line('Oracle error message is ' || sqlerrm(-(SQL%BULK_EXCEPTIONS(i).ERROR_CODE)));
+END LOOP;
+END;
+/                   In the above code which pl/sql exception will be raised?
+Single Choice - Select one correct answer from the options list.
+NO_DATA_FOUND Exception
+INVALID_NUMBER Exception
+ZERO_DIVIDE Exception
+VALUE_ERROR Exception
+Q29
+
+ 
+SQL*Loader utility is used to perform the following tasks:      
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+To load data from multiple data files during the same load session.
+To load data into multiple tables during the same load session
+To load data into external data files from multiple Oracle tables
+None of these
+Q30
+
+ 
+If you want to store any kind of data in binary form as a part of Oracle Database that is typically used 
+for multimedia, images etc, which datatype would you use?                     
+
+Single Choice - Select one correct answer from the options list.
+CLOB
+NCLOB
+BLOB
+UTL_FILE
+Q31
+
+ 
+Which prefix is used for Package global constants ?
+Single Choice - Select one correct answer from the options list.
+p_
+g_
+gc_
+lc_
+Q32
+
+ 
+Evaluate the given code. (Refer to default EMP table structure.)
+
+CREATE OR REPLACE TRIGGER emp_backup
+AFTER UPDATE ON emp FOR EACH ROW
+ BEGIN
+UPDATE empcopy  SET ename=:new.ename WHERE ename=:old.ename;
+DBMS_OUTPUT.PUT_LINE('Transaction status is logged');
+END;
+
+
+
+Single Choice - Select one correct answer from the options list.
+The given trigger is Statement Level Trigger
+Error message will be displayed. :new and :old value should not be used in update statement
+Message "Transaction status is logged" will be displayed
+Message "Trigger created successfully" will be displayed
+Q33
+
+ 
+CREATE SEQUENCE seq_emp
+START WITH 1
+MAXVALUE 20
+INCREMENT BY 2;
+
+The following statements were issued.
+SQL>SELECT seq_emp.NEXTVAL FROM dual;
+
+SQL>SELECT seq_emp.CURRVAL FROM dual;
+
+SQL>SELECT seq_emp.NEXTVAL FROM dual;
+
+SQL>SELECT seq_emp.CURRVAL, seq_emp.NEXTVAL FROM dual;
+Single Choice - Select one correct answer from the options list.
+CURRVAL NEXTVAL -------- ---------- 3 5
+CURRVAL NEXTVAL -------- ---------- 3 3
+ORA-00904: "SEQ_EMP"."CURRVAL": invalid identifier
+CURRVAL NEXTVAL -------- ---------- 5 5
+Q34
+
+ 
+Which of the following SELECT statements  can be used to extract the month from the system date and display it in the format as given below:
+
+MONTH
+---------
+March
+
+
+Single Choice - Select one correct answer from the options list.
+SQL > SELECT TO_DATE(SYSDATE,'Month') MONTH FROM dual;
+SQL > SELECT SUBSTR(SYSDATE,3,'Month') MONTH FROM dual;
+SQL > SELECT TO_CHAR(SYSDATE,'Month') MONTH FROM dual;
+SQL > SELECT TO_DATE(SUBSTR(SYSDATE,3,2,'Month')) MONTH FROM dual;
+Q35
+
+ 
+Through the SQL *Plus ________, you can change the column headings and reformat the column data 
+in your query results.                                 
+
+Single Choice - Select one correct answer from the options list.
+COLHEAD command
+COLUMN_FORMATcommand
+FORMAT_COL command
+COLUMN command
+Q36
+
+ 
+Which of the following Flashback operations provides a mechanism to view changes made to the database at the transaction level?
+Single Choice - Select one correct answer from the options list.
+Flashback Query
+Flashback Versions Query
+Flashback Transaction Query
+Flashback Table
+Q37
+
+ 
+Identify the correct statement related to FUNCTION.      
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Function must have at least one RETURN statement
+It can not be called as a part of expression.
+It is a anonymous PL/SQL block that returns a value.
+RETURN data type in a function must not include the size specification.
+Q38
+
+ 
+alter table orders add
+(remark varchar2(10)
+billno varchar2(10) ); 
+ Above is the syntax of which sql command?
+Single Choice - Select one correct answer from the options list.
+Adding rows to the table
+Adding columns to the table
+Altering rows of the table
+Deleting columns of the table
+Q39
+
+ 
+Ramya wants to calculate the experience of an employee frequently in terms of number of years. 
+She is planning to create a function for this calculation by accepting an employee number as an argument. 
+
+Which subprogram will you suggest for her? 
+Consider the structure of EMP table as follow:
+
+
+ 
+Single Choice - Select one correct answer from the options list.
+CREATE OR REPLACE FUNCTION calculateExperience(nEmpno Number) RETURN NUMBER
+ AS
+nExp NUMBER ;
+nHiredate DATE;
+BEGIN
+SELECT hiredate INTO nHiredate FROM emp where empno=nEmpno;
+nExp:=TRUNC(MONTHS_BETWEEN(SYSDATE,nHiredate)/12);
+RETURN nExp ;
+END ;
+/
+CREATE OR REPLACE FUNCTION calculateExperience(empno Number) RETURN NUMBER AS
+nExp NUMBER ;
+nHiredate DATE;
+BEGIN
+SELECT hiredate INTO nHiredate FROM emp where empno=empno;
+nExp:=TRUNC(MONTHS_BETWEEN(SYSDATE,nHiredate));
+RETURN nExp ;
+END ;
+/
+CREATE OR REPLACE FUNCTION calculateExperience(empno Number) RETURN NUMBER AS
+nHiredate DATE;
+nExp NUMBER ;
+BEGIN
+SELECT hiredate INTO nHiredate FROM emp where empno=empno;
+nExp:=TRUNC(MONTHS_BETWEEN(SYSDATE-nHiredate)/12);
+RETURN nExp ;
+END ;
+/
+None of these is correct option to create function that performs the required task.
+Q40
+
+ 
+Which of the following queries will display the department  details having at least 2 employees 
+in that department?
+
+Refer to the below EMP table structure:
+Name                    Null?          Type
+----------------------   -------------   ---------------------
+
+EMPNO          NOT NULL      NUMBER(4)
+ENAME                              VARCHAR2(10)
+JOB                                    VARCHAR2(9)
+MGR                                    NUMBER(4)
+HIREDATE                                DATE
+SAL                                    NUMBER(72)
+COMM                                NUMBER(72)
+DEPTNO                              NUMBER(2)
+Single Choice - Select one correct answer from the options list.
+SELECT deptno,COUNT(*) FROM emp GROUP BY deptno HAVING COUNT(*) > =2;
+SELECT deptno,ename, COUNT(*) FROM emp GROUP BY deptno HAVING COUNT(*) > =2 ORDER BY deptno;
+SELECT deptno, COUNT(*) FROM emp HAVING COUNT(*) > 2 GROUP BY deptno;
+SELECT deptno, COUNT(*) FROM emp WHERE COUNT(*) > 2 GROUP BY deptno;
+Unix
+1234567
+PF with Pseudocode
+8910111213
+Oracle
+141516171819202122232425262728293031323334353637383940 1 out of 40  Submit Assessment 

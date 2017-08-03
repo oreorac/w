@@ -1,0 +1,528 @@
+
+OraApps Mod 1 MTT Set 1
+
+Section:
+1
+2
+3
+Time Left : 10 : 42 List View 
+    Active     Attempted     Not Attempted
+Q1
+
+ 
+If binary search is being used on the following array to search for the number 50, how many comparisons are needed?
+Array: 10 20 25 05 45 50 60
+
+Single Choice - Select one correct answer from the options list.
+5
+4
+3
+Binary search not possible since numbers are not sorted
+Q2
+
+ 
+Consider the pseudocode below and find which features of good coding conventions are followed?
+
+ SUB calculateSum(ARRAY intArraysize)
+  sumOfEvenNumbers ? 0
+  oddSum ? 0
+  i ? 0
+  WHILE(i      IF(a[i]==6) CONTINUE
+     ENDIF
+     IF(a[i] % 2 == 0) 
+         sumOfEvenNumbers+=intArray[i]
+     ELSE 
+        oddSum ? oddSum+intArray[i]
+     ENDIF
+     i++
+     IF(a[i]==5) BREAK
+     ENDIF
+  END WHILE
+  print(oddSum)
+  RETURN sumOfEvenNumbers
+ END SUB
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Layout
+Naming conventions
+Modularity
+Readability
+Q3
+
+ 
+Suppose we are sorting an array of ten integers using some quadratic sorting algorithm. After four iterations of the algorithm's main loop, the array elements are ordered as shown here:                       1  2  3  4  5  0  6  7  8  9                                                                                                              Which statement is correct ? (Note : Our selection sort picks largest items first.)
+Single Choice - Select one correct answer from the options list.
+The algorithm might either be selection sort or insertion sort
+The algorithm is neither selection nor insertion sort
+The algorithm might be selection sort , but could not be insertion sort
+The algorithm might be insertion sort , but could not be selection sort
+Q4
+
+ 
+Select the recommended version of for loop:
+Single Choice - Select one correct answer from the options list.
+FOR index=10 to 0 
+---------------------
+END LOOP
+FOR index = 0 to 10
+         index=13
+END FOR
+FOR index= 0 to 10
+----------------
+END FOR
+FOR index=10
+---------------------
+END FOR
+Q5
+
+ 
+Alpha and Beta Testing are forms of:
+Single Choice - Select one correct answer from the options list.
+Acceptance Testing
+Integration Testing
+System Testing
+Unit Testing
+Q6
+
+ 
+Which of the following statements are true about exceptions ?
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+One should analyse what could go wrong during program execution and write exception handlers for handling these scenarios
+Writing exception handlers leads to overhead in efforts and performance of the program, so should be strictly avoided
+Exception handlers allow us to proceed with program execution by considering applicable alternatives to the scenarios which give rise to exceptions
+Once the entire program is written, we should revisit the program to include code for exception handlers
+Q7
+
+ 
+Consider the contents of Products.dat file as below: 
+the field are product code, product name, price, stock
+
+p101|samsung sII|27000|15
+p102|samsung sIII|39000|7
+p103|samsung note|32000|11
+p104|sony experia|29000|9
+p105|HTC one X|37000|5
+
+Which command is correct way to show the product details sorted on the Price Column?
+
+
+Single Choice - Select one correct answer from the options list.
+sort -n -k3,3 product2.dat
+sort -n -t '|' -k3,3 product2.dat
+sort -n -d '|' -k3,3 product2.dat
+sort -n -d '|' -k2,2 product2.dat
+Q8
+
+ 
+Which of the following have correct syntax to print "welcome" 5 times?      
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+for i in 1 2 3 4 5 do echo "$i Welcome" done
+for i in 1 2 3 4 5 echo "$i Welcome" endfor
+for i in 5 4 3 2 1 do echo "$i Welcome" done
+for i in 1 2 3 4 5 echo "$i Welcome" endf
+Q9
+
+ 
+Which command is used to display all the lines with the string 'sales' from the file empl.lst?      
+
+Single Choice - Select one correct answer from the options list.
+cut sales empl.lst
+grep /sales > empl.lst
+grep sales empl.lst
+grep | /sales/ empl.lst
+Q10
+
+ 
+For Bourne shell, the system reads ________ file and executes the commands found there.
+Single Choice - Select one correct answer from the options list.
+.profile
+.cshrc
+.login
+.logon
+Q11
+
+ 
+Regular expression are used for specifying ___________ in __________ command.
+Single Choice - Select one correct answer from the options list.
+Format, paste
+String, grep
+Pattern, grep
+Format, grep
+Q12
+
+ 
+How to check in script whether there are atleast 3 command line arguments provided?      
+
+Single Choice - Select one correct answer from the options list.
+if [ $# -ge 3 ] then #Processing instructions # fi
+if [ $# -gt 3 ] then #Processing instructions # fi
+if [ $@ -ge 3 ] then #Processing instructions # fi
+if [ $? -ge 3 ] then #Processing instructions # fi
+Q13
+
+ 
+Which of the following are the features of Unix Operating System?      
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+It is multitasking, multiuser system
+Multitasking is achived by process priority
+A shell runs for each and every logged user
+Unix file system is represnted as an inverted tree structure
+Q14
+
+ 
+Refer to the below EMP table structure:                                                  
+
+Name                          Null                      Type        -----------------           ------------------        -------------------EMPNO                NOT NULL            NUMBER(4)  ENAME                                        VARCHAR2(10) JOB                                             VARCHAR2(9) MGR                                                 NUMBER(4)  HIREDATE                                             DATE      SAL                                                NUMBER(72) COMM                                            NUMBER(72) DEPTNO                                          NUMBER(2)     
+Evaluate the given code:                                          
+DECLARE                                                             v_empno NUMBER (4);                                          v_ename VARCHAR2 (20);                                     BEGIN                                                                 SELECT empno, ename, sal                                  INTO v_empno, v_ename                                       FROM emp                                                           WHERE empno = 100;                                          END;                                                                      /
+Single Choice - Select one correct answer from the options list.
+As employee with EMPNO 100 is not present in EMP table, code will throw an error: ORA-01403: no data found
+As no EXPLICT Cursor is used, code will throw an error: ORA-01422: exact fetch returns more than requested number of rows
+The given code will throw an error: PL/SQL: ORA-00947: not enough values
+There is no error in the given code.
+Q15
+
+ 
+Which of the following flashback operations provide mechanism to view changes made to the database over time at row level?
+Single Choice - Select one correct answer from the options list.
+Flashback Query
+Flashback Versions Query
+Flashback Transaction Query
+Flashback Table
+Q16
+
+ 
+________   holds the iteration for FORALL statement for which the exception was raised
+Single Choice - Select one correct answer from the options list.
+%BULK_EXECPTIONS.ERROR_COUNT
+%BULK_EXECPTIONS.ERROR_INDEX
+%BULK_EXECPTIONS.ERROR_CODE
+%BULK_EXCEPTIONS
+Q17
+
+ 
+� NS � is the Trigger Operation Code for ___________  operation .
+Single Choice - Select one correct answer from the options list.
+Insert
+Update
+Instead
+Delete
+Q18
+
+ 
+Consider the structure of ACCOUNTS table as shown below:                                                                                                                    
+
+                                 
+
+Assume that there are no records in this table.       Which of the following ALTER commands would you 
+choose to make the ACCTYPE column NOT NULL where the constraint name is nn_actype?
+Single Choice - Select one correct answer from the options list.
+ALTER TABLE accounts ADD CONSTRAINT nn_actype acctype NOT NULL;
+ALTER TABLE accounts MODIFY acctype CONSTRAINT nn_actype NOT NULL;
+ALTER TABLE accounts ADD CONSTRAINT nn_actype NOT NULL(acctype);
+ALTER TABLE accounts MODIFY CONSTRAINT nn_actype acctype NOT NULL;
+Q19
+
+ 
+Evaluate the given code :                                                                                                          DECLARE                                                             TYPE  NameList IS TABLE OF              emp.ename%TYPE ;                                       names NameList ;                                                  salary emp.sal%TYPE;                                           BEGIN                                                                  SELECT enamesal BULK COLLECT                 INTO namessalary from EMP;                                END;                                                                     /
+Single Choice - Select one correct answer from the options list.
+The code will display both names and salary of emp table
+The code will display only the names of emp table
+The code will display salary of emp table
+The code will give an error as the salary is not a collection
+Q20
+
+ 
+Identify the correct statement that is used to lock the selected records for modification?      
+
+Single Choice - Select one correct answer from the options list.
+UPDATE ...WITH LOCK CONSTRAINT
+MERGE INTO... UPDATE
+SELECT... FOR UPDATE OF
+LOCK FOR...INSERT
+Q21
+
+ 
+Examine the contents of employees table:
+
+
+
+Look at the below statement and select the type of join:
+
+SELECT Emp.ENAME AS EMPLOYEE, Mgr. ENAME AS MANAGER FROM EMPLOYEES Mgr JOIN  EMPLOYEES 
+Emp ON Mgr.MGR = Emp.EMPNO WHERE Emp.SAL > 2000;
+Single Choice - Select one correct answer from the options list.
+Full outer join
+Cross Join
+Outer Join
+Self Join
+Q22
+
+ 
+What will be the output of the following query?      
+
+SELECT REPLACE(RTRIM('Anticipation')'ti''shun')
+FROM dual;
+ 
+Single Choice - Select one correct answer from the options list.
+REPLACE(RTRIM('A
+----------------
+Anshuncipashunon
+REPLACE(RTRIM('A
+----------------
+Anshuncipation
+REPLACE(RTRIM('A
+----------------
+Anshcipashon
+REPLACE(RTRIM('A
+----------------
+Anticipation
+Q23
+
+ 
+Developers wants to read data from operating system files that are stored on the Oracle server.
+Identify the correct oracle built in package which contains the required subprograms for performing above task.                         
+
+Single Choice - Select one correct answer from the options list.
+DBMS_OUTPUT
+UTIL_FILE
+UTL_FILE
+DBMS_LOB
+DBMS_SMTP
+Q24
+
+ 
+The _______ is used to interpret the contents of the input files, and to what to do with the rows it extracts from them
+Single Choice - Select one correct answer from the options list.
+INPUT DATA FILE
+BAD FILE
+LOG FILE
+CONTROL FILE
+Q25
+
+ 
+Sachin wants to place text at the bottom of each page while generating a SQL Report. 
+Which formatting command will you suggest for him?      
+
+Single Choice - Select one correct answer from the options list.
+ACCEPT
+BTITLE
+BREAK ON
+COLUMN
+Q26
+
+ 
+Examine the below Trigger:
+
+CREATE OR REPLACE TRIGGER sales_backup
+AFTER UPDATE ON sales FOR EACH ROW
+ BEGIN
+UPDATE sales_copy  SET sname=:new.sname WHERE sname=:old.sname;
+DBMS_OUTPUT.PUT_LINE('Transaction status is logged');
+END;
+/
+
+Identify the correct option about this trigger. 
+Assume sales and sales_copy table already exists with column "sname" in database.
+
+
+Single Choice - Select one correct answer from the options list.
+Error message will be displayed. :new and :old value should not be used in update statement.
+Error message will be displayed. Update statement should not be used in a row level trigger.
+Replace the occurrence of :new with :old and vice versa in a update statement for creating this trigger successfully.
+Message "Trigger created successfully" will be displayed.
+Q27
+
+ 
+Identify the correct statements to delete all information of employees belonging to department 20.
+
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+SQL > DELETE * FROM Emp WHERE deptno = 20;
+SQL > TRUNCATE TABLE Emp WHERE deptno=20;
+SQL > DELETE EMP WHERE deptno = 20;
+SQL > DELETE FROM Emp WHERE deptno =20;
+Q28
+
+ 
+________ is always false for Implicit Cursors
+Single Choice - Select one correct answer from the options list.
+%FOUND
+%ISOPEN
+%NOTFOUND
+%ROWCOUNT
+Q29
+
+ 
+The ith element of __________ attribute stores the number of rows processed by the ith execution of an INSERT, UPDATE or DELETE statement.
+Single Choice - Select one correct answer from the options list.
+%BULK_EXECPTIONS.ERROR_COUNT
+%BULK_EXECPTIONS.ERROR_INDEX
+%BULK_ROWCOUNT
+%BULK_EXECPTIONS.ERROR_CODE
+Q30
+
+ 
+DECLARE
+      eno  NUMBER  := 600080;
+      empname VARCHAR2(10);
+BEGIN
+      SELECT ename into empname  FROM emp             WHERE empno = eno ;
+      DBMS_OUTPUT.PUT_LINE('Employee name is   ' || empname);
+  EXCEPTION
+  WHEN no_data_found
+  DBMS_OUTPUT.PUT_LINE('No such employee: ' || eno);
+  WHEN others THEN
+  DBMS_OUTPUT.PUT_LINE('Some exception raised in code');
+END;
+/ 
+                                                                            Which of the following statements are true about the above PL/SQL block?
+Single Choice - Select one correct answer from the options list.
+Code will show compilation error
+Output: Some exception raised in code PL/SQL procedure successfully completed.
+Output: No such employee: 600080 PL/SQL procedure successfully completed.
+None of these
+Q31
+
+ 
+Which of the following queries will display the departments and no. of employees in every department wherein individual employee's salary should be 2500 or more?                                   
+
+Refer to the below EMP table structure:                                          
+Name                          Null                      Type       -----------------          ---------------------        -------------------EMPNO                  NOT NULL            NUMBER(4) ENAME                                         VARCHAR2(10) JOB                                               VARCHAR2(9) MGR                                                NUMBER(4)  HIREDATE                                           DATE      SAL                                                NUMBER(72) COMM                                            NUMBER(72) DEPTNO                                          NUMBER(2)
+Single Choice - Select one correct answer from the options list.
+select deptno, count(sal) from emp where count(sal) > = 2500 group by deptno;
+select deptno,dname, count(*) from emp where count(sal) > 2500 group by deptno having count(*) > 2 order by deptno;
+select deptno,count(*) from emp having count(sal) > 2500 group by deptno;
+select deptno, count(*) from emp where sal > = 2500 group by deptno;
+Q32
+
+ 
+Ram would like to select the list of designations from the designation table excluding 'SE'. 
+Which of the following commands would you suggest?     
+
+Refer the structure of Designation table given below:
+
+Desig_Code varchar2(10) Primary Key
+Desig_Name varchar2(25)
+
+
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+SELECT desig_name FROM designation WHERE desig_code NOT EQUAL TO 'SE'
+SELECT desig_name FROM designation WHERE desig_code < > 'SE'
+SELECT desig_name FROM designation WHERE desig_code ^= 'SE'
+SELECT desig_name FROM designation WHERE desig_code IS NOT EQUAL TO= 'SE'
+Q33
+
+ 
+Any subprogram not in the package specification but coded in the package body is called a ___________
+Single Choice - Select one correct answer from the options list.
+Public Object
+Private Object
+None of the above
+Both of above
+Q34
+
+ 
+Consider the below code of procedure.
+
+CREATE or replace PROCEDURE disp_name (ENO IN  NUMBER := 7369) AS
+    v_emp_name varchar2(50);
+    BEGIN
+    SELECT ename INTO v_emp_name FROM emp WHERE empno=eno;
+    dbms_output.put_line ('The employee name is:' || v_emp_name);
+     END disp_name;
+ /
+
+EMP Table Data:
+
+
+
+Identify the correct statements related to the given code. 
+ 
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+SQL> EXEC disp_name(7499)
+O/P is:
+
+The employee name is:ALLEN
+SQL> exec disp_name
+O/P is:
+The employee name is:SMITH
+SQL> EXEC disp_name(7499)
+O/P is:
+
+The employee name is:SMITH
+SQL> exec disp_name
+O/P is:
+ORA-01422: exact fetch returns more than requested number of rows
+Q35
+
+ 
+Select the correct memory area(s) available in oracle memory structure.     
+
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+System Global Area
+Memory Global Area
+Pool Global Area
+Program Global Area
+Program Monitor (PMON)
+Q36
+
+ 
+Identify the data dictionary view category that displays relevant information of all objects in the entire database.
+
+
+Single Choice - Select one correct answer from the options list.
+DBA
+ALL
+USER
+SYS
+Q37
+
+ 
+Refer to the below EMP table structure:                                                  
+
+Name                          Null                      Type       -----------------             ------------------        -------------------EMPNO                 NOT NULL            NUMBER(4) ENAME                                       VARCHAR2(10) JOB                                             VARCHAR2(9) MGR                                                NUMBER(4)   HIREDATE                                           DATE      SAL                                              NUMBER(72) COMM                                          NUMBER(72) DEPTNO                                         NUMBER(2)     
+Which of the following queries would you use to update salary of 'ABC' to 75% of Tom's salary
+Single Choice - Select one correct answer from the options list.
+UPDATE Emp SET Sal = (SELECT sal FROM Emp WHERE Empno = 1001)*0.75 WHERE Ename = 'ABC';
+UPDATE Emp SET Sal := (SELECT sal FROM Emp WHERE Empno = 1001)*0.75 WHERE Ename = 'ABC';
+UPDATE Emp SET Sal = PRODUCT((SELECT sal FROM Emp WHERE Empno = 1001),0.75) and Ename = 'ABC';
+UPDATE Emp SET Sal = PRODUCT(sal,0.75) and Ename = 'ABC';
+Q38
+
+ 
+________  offers both incremental backups and incrementally updated backups
+Single Choice - Select one correct answer from the options list.
+DRA
+RTO
+RMAN
+none of these
+Q39
+
+ 
+Which of the following subprogram parameter modes will be allowed to assign with default value?
+
+
+Single Choice - Select one correct answer from the options list.
+OUT
+INOUT
+IN
+REF
+Q40
+
+ 
+What code can be used to give all access privileges   to a user?
+Single Choice - Select one correct answer from the options list.
+grant privilege_name to username
+grant sysdba to username
+Both
+None of these
+PF with Pseudocode
+123456
+Unix
+78910111213
+Oracle
+141516171819202122232425262728293031323334353637383940 2 out of 40  Submit Assessment 
